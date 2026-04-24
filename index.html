@@ -36,11 +36,37 @@
         </li>
         <li class="nav-item"><a href="#" class="nav-link">Hakkımda</a></li>
         <li class="nav-item"><a href="#" class="nav-link">iletisim</a></li>
+        <li class="nav-item" data-bs-target="#login" data-bs-toggle="modal" role="modal"><a href="#" class="nav-link">login</a></li>
 
     </ul>
     </div>
  </nav>
-    
+    <div class="modal" id="login">
+        <div class="modal-dialog bg-white">
+            <button class="btn-close" data-bs-dismiss="close" ></button>
+            <div class="modal-header ">
+                <h1>Login</h1>
+            </div>
+            
+            <div class="modal-content">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="kullad">Kullanici adi</label>
+                        <input type="text" name="" class="form-control" id="kullad">
+                    </div>
+                    <div class="mb-3">
+                        <label for="sifre">Şifre</label>
+                        <input type="password" name="sifre" class="form-control" id="sifre">
+                    </div>
+                </form>
+                 <div class="modal-footer">
+                <button class="btn btn-primary">Kaydet</button>
+               
+                 </div>
+            </div>
+           
+        </div>
+    </div>
 
 
 
